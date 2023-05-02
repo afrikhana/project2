@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Login from './login';
 import Home from './Home';
 import Cart from './Cart';
+import { NavLink } from 'react-router-dom';
 
 
 function NavBar(){
@@ -11,10 +12,7 @@ function NavBar(){
   return(
     
     <nav>
-      
-      {/* <NavLink to="/Login">Login</NavLink><br></br> */}
-       {/* <NavLink to="/Home">Home</NavLink><br></br>
-       <NavLink to="/Cart">Cart</NavLink><br></br> */}
+       <NavLink to="/Login">Login</NavLink><br></br>
     </nav>
   );
 }
@@ -25,8 +23,7 @@ function App() {
       <BrowserRouter>
       <NavBar/>
       <Routes>
-        
-        <Route path="/Home" element={<Home/>}></Route>
+         <Route path="/Home" element={<Home/>}></Route>
         <Route path="/Cart" element={<Cart/>}></Route>
         <Route path="/Login" element={<Login/>}></Route>
         </Routes>

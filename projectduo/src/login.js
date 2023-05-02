@@ -7,9 +7,9 @@ function LoginForm() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    // You can add your login logic here
+   
     console.log(`Logged in with email: ${email}, username: ${username}, password: ${password}`);
-    // After successful login, redirect to home page
+   
     window.location.href = "/home";
   }
 
