@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, NavLink, Routes} from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Login from './login';
 import Home from './Home';
 import Cart from './Cart';
@@ -11,10 +11,10 @@ function NavBar(){
   return(
     
     <nav>
-       <NavLink to="/Home">Home</NavLink>
-       <NavLink to="/Cart">Cart</NavLink>
-       <NavLink to="/Login">Login</NavLink>
-
+      
+      {/* <NavLink to="/Login">Login</NavLink><br></br> */}
+       {/* <NavLink to="/Home">Home</NavLink><br></br>
+       <NavLink to="/Cart">Cart</NavLink><br></br> */}
     </nav>
   );
 }

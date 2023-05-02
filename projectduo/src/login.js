@@ -1,47 +1,39 @@
-import React, { useState } from "react";
-// import { useHistory } from "react-router-dom";
+import { useState } from "react";
 
-function Login({onLogin}){
-    // const history=useHistory()
- const [formData,setFormData]=useState({
-    email:'',
-    username:'',
-    password:'',   
- })
- function handleChange(e){
-    setFormData({
-        ...formData,[e.targe.name]:e.tartget.value,
-    });
- }
- function handleSubmit(e){
-    e.preventDefault();
-    fetch("http://localhost:3000/Login",{
-         method:"POST", headers:{"Content-Type":"application/json",},
-         body:JSON.stringify(formData),
-    })
-    .then((r)=>r.json())
-    .then((user)=>{onLogin(user);
+function LoginForm() {
+  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
-    //  history.push("/Home");
-    })
- }
+  function handleSubmit(event) {
+    event.preventDefault();
+    // You can add your login logic here
+    console.log(`Logged in with email: ${email}, username: ${username}, password: ${password}`);
+    // After successful login, redirect to home page
+    window.location.href = "/home";
+  }
 
-return (
+  return (
     <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="email" 
-        value={formData.email} onChange={handleChange}></input>
-
-        <input type="text" placeholder="username" 
-        value={formData.username} onChange={handleChange}></input>
-
-        <input type="number" placeholder="password" 
-        value={formData.password} onChange={handleChange}></input>
-
-        <button type="submit"><u>Login</u></button>
+      <h2>Login</h2>
+      <label>
+        Email:
+        <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} />
+      </label>
+      <br />
+      <label>
+        Username:
+        <input type="text" value={username} onChange={(event) => setUsername(event.target.value)} />
+      </label>
+      <br />
+      <label>
+        Password:
+        <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} />
+      </label>
+      <br />
+      <button type="submit">Login</button>
     </form>
-);
-
+  );
 }
 
-
-export default Login;
+export default LoginForm;
