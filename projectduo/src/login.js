@@ -37,11 +37,11 @@ return (
         <input type="number" placeholder="password" 
         value={formData.password} onChange={handleChange}></input>
 
-        <button type="submit">Login</button>
+        <button type="submit"><u>Login</u></button>
     </form>
 );
 
 }
 
 
-export default Login
+export default Login;

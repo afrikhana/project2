@@ -6,7 +6,7 @@ function Home({ isLoggedIn }) {
 
   return (
     <div>
-      <h1>Home!</h1>
+      <h1><u>Home</u></h1>
     </div>
   );
 }
