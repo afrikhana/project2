@@ -1,130 +1,116 @@
 {
-    "Photos": [
-      {
-        "id": 1,
-        "title": "vibes",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/876935358671758151/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 2,
-        "title": "oldschool",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/876935358671758151/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 3,
-        "title": "chill vibes",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/964544445172076223/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 4,
-        "title": "street vibes",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/648940627572639623/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 5,
-        "title": "hold on",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/744219907204184988/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 6,
-        "title": "static",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/583919907950920083/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 7,
-        "title": "chilling",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/48695239711109430/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 8,
-        "title": "boiz",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/11047961577576695/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 9,
-        "title": "ur gf",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/673991900504714266/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 10,
-        "title": "pretty",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/657173770639619273/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 11,
-        "title": "reign",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/1055599905409756/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 12,
-        "title": "vibes",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/1140958886824470674/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 13,
-        "title": "lovely",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/689754499192875327/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      },
-      {
-        "id": 14,
-        "title": "lovely",
-        "price": 0,
-        "cover": "https://www.pinterest.com/pin/599049187948842763/",
-        "bid": 0,
-        "delete": "Deleted",
-        "like": 0
-      }
-    ]
-  }
+  "Photos": [
+    {
+      "id": 1,
+      "title": "vibes",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/876935358671758151/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 2,
+      "title": "oldschool",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/876935358671758151/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 3,
+      "title": "chill vibes",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/964544445172076223/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 4,
+      "title": "street vibes",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/648940627572639623/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 5,
+      "title": "hold on",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/744219907204184988/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 6,
+      "title": "static",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/583919907950920083/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 7,
+      "title": "chilling",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/48695239711109430/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 8,
+      "title": "boiz",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/11047961577576695/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 9,
+      "title": "ur gf",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/673991900504714266/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 10,
+      "title": "pretty",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/657173770639619273/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 11,
+      "title": "reign",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/1055599905409756/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 12,
+      "title": "vibes",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/1140958886824470674/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 13,
+      "title": "lovely",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/689754499192875327/",
+      "bid": 0,
+      "like": 0
+    },
+    {
+      "id": 14,
+      "title": "lovely",
+      "price": 0,
+      "cover": "https://www.pinterest.com/pin/599049187948842763/",
+      "bid": 0,
+      "like": 0
+    }
+  ]
+}
