@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter, Route, NavLink, Routes} from "react-router-dom";
+import Login from './Login';
+import Home from './Home';
+import Cart from './Cart';
+
+
+function NavBar(){
+  
+  return(
+    
+    <nav>
+      <a><NavLink to="/Home">Home</NavLink></a>
+      <a> <NavLink to="/Cart">Cart</NavLink></a>
+      <a><NavLink to="/Login">Login</NavLink></a>
+     
+      <div class="animation start-home"></div>
+    </nav>
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        
+        <Route path="/Home" element={<Home/>}></Route>
+        <Route path="/Cart" element={<Cart/>}></Route>
+        <Route path="/Login" element={<Login/>}></Route>
+        </Routes>
+      </BrowserRouter>
+
+      
     </div>
   );
 }
