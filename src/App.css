@@ -184,6 +184,7 @@ nav .start-home, a:nth-child(4):hover~.animation{
 
 /* rainbow button */
 .rainbow-hover {
+  margin-left: 34%;
   font-size: 16px;
   font-weight: 700;
   color: #ff7576;

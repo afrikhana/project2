@@ -133,7 +133,7 @@
    .content2{
     position: absolute;
     width: 100%;
-    margin-top: 45%;
+    margin-top: 55%;
    }
    .content2 img{
     position: relative;
@@ -188,7 +188,7 @@
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #482367;
+    color: #000000;
    }
    
    .cta svg {
@@ -198,7 +198,7 @@
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: #4c2367;
+    stroke: #000000;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;

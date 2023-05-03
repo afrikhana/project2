@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './cart.css'
 
 function DeleteButton() {
   const [setPhotos] = useState([]);
@@ -30,7 +31,7 @@ function DeleteButton() {
   return (
     <div>
       {/* <h1>My Photos</h1> */}
-      <button onClick={handleDelete}>Delete button</button>
+      <button id="delete" onClick={handleDelete}><p>Delete</p></button>
       {/* <div className="photos">
         {photos.map((photo) => (
           <div key={photo.id} className="photo">

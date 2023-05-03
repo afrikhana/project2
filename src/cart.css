@@ -1,0 +1,196 @@
+
+.content{
+    margin-left: 90px;
+    padding: 10px;
+    width: min-content;
+    float: left;
+}
+.content img{
+    width: 500px;
+    height: 500px;
+}
+
+.content h1{
+    color: white;
+    font-family: 'Alkatra', cursive;
+  }
+  .content p{
+    color: white;
+    font-family: 'Alkatra', cursive;
+  }
+
+
+  /* button */
+  #like {
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px 8px 12px;
+    box-shadow: rgba(236, 238, 240, 0.35) 0px -2px 6px 0px inset;
+    background-color: #000000;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 60px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(58, 55, 55);
+    font-family: monospace;
+    transition: transform 400ms cubic-bezier(.48,-0.45,.24,1.5), 
+    border-color 400ms ease-in-out,
+    background-color 400ms ease-in-out;
+    word-spacing: -2px;
+  }
+  
+  @keyframes movingBorders {
+    0% {
+      border-color: #bbbbbb;
+    }
+  
+    50% {
+      border-color: #6d6c6c;
+    }
+  
+    90% {
+      border-color: #4e4d4d;
+    }
+  }
+  
+  #like:hover {
+    background-color: #fffefe;
+    transform: scale(105%);
+    animation: movingBorders 3s infinite;
+  }
+  
+  #like svg {
+    margin-right: 4px;
+    fill: rgba(0, 0, 0, 0.904);
+    transition: opacity 100ms ease-in-out;
+  }
+  
+  .filled {
+    position: absolute;
+    opacity: 0;
+    top: 8px;
+    left: 14px;
+  }
+  
+  @keyframes beatingHeart {
+    0% {
+      transform: scale(0.8);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    20% {
+      transform: scale(1.1);
+    }
+  
+    35% {
+      transform: scale(1.15);
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  #like:hover .empty {
+    opacity: 0;
+  }
+  
+  #like:hover .filled {
+    opacity: 1;
+    animation: beatingHeart 1.2s infinite;
+  }
+  /* end of like button */
+  /* bid button */
+  button{
+    float: left;
+  }
+  #upload {
+    width: 95px;
+    height: 42px;
+    margin-left: 20px;
+  margin-top:10px;
+    cursor: pointer;
+    color: #100720;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+  }
+  #upload p{
+    margin-top: -13px;
+    margin-left: 40%;
+    font-size: xx-small;
+    height: min-content;
+    width: min-content;
+  }
+  #upload::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  #upload:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+  }
+  /* end off buy button */
+  
+  #delete {
+    width: 95px;
+    height: 42px;
+    margin-left: 20px;
+  margin-top:10px;
+    cursor: pointer;
+    color: #100720;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+  }
+  #delete p{
+   
+    margin-left: 40%;
+    font-size: xx-small;
+    height: min-content;
+    width: min-content;
+  }
+  #delete::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  #delete:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+  }
+  /* end of delete button */
+  
+  
+  
+  

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 //  import { useHistory } from "react-router-dom";
 //call on login prop
 function Login(){
@@ -33,12 +34,12 @@ function Login(){
 
 return (
     <div>
-        <div class="card">
-  <div class="card-info">
-    <div class="title">
+        <div className="card">
+  <div className="card-info">
+    <div className="title">
         <h2>WELCOME</h2>
     <form onSubmit={handleSubmit}>
-        <div class="inputbox">
+        <div className="inputbox">
         <input type="text" placeholder="email" name="email"
         value={formData.email} onChange={handleChange}></input>        
           <i></i>
@@ -52,7 +53,7 @@ return (
         <i></i>
       </div>
         <button type="submit"  data-label="Register" class="rainbow-hover">
-        <span class="sp">Login</span>
+        <span className="sp"><NavLink to="/Cart">Login</NavLink></span>
         </button>
     </form>
     </div>
