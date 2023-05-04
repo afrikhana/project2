@@ -53,7 +53,7 @@ return (
         <i></i>
       </div>
         <button type="submit"  data-label="Register" class="rainbow-hover">
-        <span className="sp"><NavLink to="/Cart">Login</NavLink></span>
+        <span className="sp"><NavLink to="/Gallery">Login</NavLink></span>
         </button>
     </form>
     </div>

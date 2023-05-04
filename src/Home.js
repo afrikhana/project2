@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes ,NavLink} from "react-router-dom";
+import React from "react";
+import {NavLink} from "react-router-dom";
 import './home.css'
 
 // import { Redirect } from "react-router-dom";

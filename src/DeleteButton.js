@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import './cart.css'
+import { useState} from "react";
+import './Gallery.css'
 
 function DeleteButton() {
   const [setPhotos] = useState([]);

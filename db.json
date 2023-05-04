@@ -7,7 +7,7 @@
       "cover": "https://sdbooth2-production.s3.amazonaws.com/94gkmkautp0a4ojs6lkgavg70t4e",
       "upload": 0,
       "delete": "Deleted",
-      "like":0
+      "like": 0
     },
     {
       "id": 2,
@@ -134,26 +134,6 @@
       "upload": 0,
       "delete": "Deleted",
       "like": 0
-    },
-    {
-      "like": "",
-      "id": 16
-    },
-    {
-      "like": "",
-      "id": 17
-    },
-    {
-      "like": "",
-      "id": 18
-    },
-    {
-      "like": "",
-      "id": 19
-    },
-    {
-      "like": "",
-      "id": 20
     }
   ]
 }

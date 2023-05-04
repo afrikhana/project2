@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
 import DeleteButton from "./DeleteButton";
-import "./cart.css"
+import "./Gallery.css"
 
 
-function Cart() {
+
+
+function Gallery() {
 
 
   //   if (!isLoggedIn) return <Redirect to="/Login" />;
 function FetchData(){
   const [Photos, setDisplay]= useState([]);
-
+const [searchTerm,setSearchTerm]=useState('')
   
   useEffect(()=>{
    fetch('http://localhost:3000/Photos')
@@ -25,13 +27,13 @@ function FetchData(){
             e.target.textContent=curValue;
             console.log(curValue)
             
-            // fetch(`http://localhost:3000/Photos`, {
-            //   method: 'POST',
-            //   headers: { 'Content-Type': 'application/json' },
-            //   body: JSON.stringify(curValue)
-            // })
-            // .then((r)=>r.json())
-            // .then(user=>console.log(user))
+  //           fetch(`http://localhost:3000/Photos`, {
+  //             method: 'PUT',
+  //             headers: { 'Content-Type': 'application/json' },
+  //             body: JSON.stringify(curValue)
+  //           })
+  //           .then((r)=>r.json())
+  //           .then(user=>console.log(user))
   }
 
   function handleBid(e){
@@ -41,13 +43,12 @@ function FetchData(){
     console.log(curValue)
   }
 
-  
 
- 
+
 
   return (
     <div className="display1">
-      
+   
       {Photos.map(photo =>(
         <div className="content" key={photo.id}>
           <img src={photo.cover} alt={photo.id}></img>
@@ -59,9 +60,9 @@ function FetchData(){
           <DeleteButton/>
           
           
-          
         </div>
       ))}
+      
     </div>
   );
 
@@ -97,4 +98,4 @@ return (
 
 }
 
-export default Cart;
+export default Gallery;
