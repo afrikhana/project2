@@ -5,9 +5,12 @@ import "./cart.css"
 function Cart() {
   const[createData, setCreateData]=useState({
     id:'',
-    image:'',
+    cover:'',
     title:'',
     price:'',
+    upload: '',
+    delete: "Deleted",
+    like: 0
 
   })
   function handleChange(e){
@@ -50,7 +53,9 @@ function Cart() {
       {/* start button */}
       <button type="submit"  data-label="Register" class="button" onClick={handleClick}>
    
-      <NavLink to="/Gallery">submit</NavLink>
+      <span class="actual-text">&nbsp;submit&nbsp;</span>
+      <NavLink to="/Gallery"> <span class="hover-text" aria-hidden="true">&nbsp;Submit&nbsp;</span></NavLink>
+    
     </button>
   </div>
     
