@@ -57,6 +57,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+This section provided here:[' https://6454fc9b103440071e366037--poetic-phoenix-db64a0.netlify.app/LogOut']
+was used toshow everything in the web page
+
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
@@ -64,6 +67,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+"USING LIVE SERVER"= most of the deployment to a live server was used by netlify
 
 ### `npm run build` fails to minify
 
@@ -76,3 +81,9 @@ this is where all the codes would be placed as a child component... hence everyt
 ### the nomad
 
 this is a website that helps photographers to post their pictures and show in the details
+
+The styling was used through uiVerse only the buttons but in tend to adjust the way i needed it to be.
+
+### gallery.js
+
+this is where we render all the data through a fetch request and have all the buttons deployed here
