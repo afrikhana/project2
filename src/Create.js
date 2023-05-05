@@ -28,7 +28,7 @@ function Cart() {
   return (
     <div className="createForm">
    
-<form >
+<form id="form" >
     <div className="card1">
       <div className="textInputWrapper">
       <input className="textInput" type="number" placeholder="id" name="id"
@@ -49,9 +49,8 @@ function Cart() {
       </div>
       {/* start button */}
       <button type="submit"  data-label="Register" class="button" onClick={handleClick}>
-   <NavLink to="/Gallery"></NavLink>
-   <span class="actual-text">&nbsp;Submit&nbsp;</span>
-    <span class="hover-text" aria-hidden="true">&nbsp;Submit&nbsp;</span>
+   
+      <NavLink to="/Gallery">submit</NavLink>
     </button>
   </div>
     

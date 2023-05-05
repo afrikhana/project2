@@ -136,7 +136,12 @@
       "like": 0
     }
   ],
-  "Login":[
-    
+  "Login": [
+    {
+      "email": "brianmurigi64@gmail.com",
+      "username": "brian",
+      "password": "kawasakZX10",
+      "id": 1
+    }
   ]
 }

@@ -22,7 +22,7 @@ function Home() {
                      <span></span>
          <span></span>
           <NavLink to="/Login">
-          <p>try me:p</p></NavLink></button>
+          <p>Get started</p></NavLink></button>
       </div>
         {/* content 1 */}
         <div className="content1">

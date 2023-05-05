@@ -18,7 +18,7 @@ function Login(){
  function handleSubmit(e){
   
     e.preventDefault();
-    fetch("http://localhost:3000/Photos",{
+    fetch("http://localhost:3000/Login",{
          method:"POST", headers:{"Content-Type":"application/json",},
          body:JSON.stringify(formData),
     })
@@ -29,6 +29,15 @@ function Login(){
     
     
  }
+ function handleOnClick(e){
+  e.preventDefault();
+  fetch("http://localhost:3000/Login",{
+       method:"POST", headers:{"Content-Type":"application/json",},
+       body:JSON.stringify(formData),
+  })
+  .then((r)=>r.json())
+  .then(user=>console.log(user))
+ }
 
 
 
@@ -38,7 +47,7 @@ return (
   <div className="card-info">
     <div className="title">
         <h2>WELCOME</h2>
-    <form onSubmit={handleSubmit}>
+    <form  onSubmit={handleSubmit}>
         <div className="inputbox">
         <input type="text" placeholder="email" name="email"
         value={formData.email} onChange={handleChange}></input>        
@@ -52,7 +61,7 @@ return (
         value={formData.password} onChange={handleChange}></input>      
         <i></i>
       </div>
-        <button type="submit"  data-label="Register" class="rainbow-hover">
+        <button onClick={handleOnClick} type="submit"  data-label="Register" class="rainbow-hover">
         <span className="sp"><NavLink to="/Gallery">Login</NavLink></span>
         </button>
     </form>
