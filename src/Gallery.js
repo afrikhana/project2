@@ -11,7 +11,7 @@ function Gallery() {
   //   if (!isLoggedIn) return <Redirect to="/Login" />;
 function FetchData(){
   const [Photos, setDisplay]= useState([]);
-const [searchTerm,setSearchTerm]=useState('')
+// const [searchTerm,setSearchTerm]=useState('')
   
   useEffect(()=>{
    fetch('http://localhost:3000/Photos')

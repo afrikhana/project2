@@ -13,7 +13,7 @@ nav{
   display: flex;
   max-width: max-content;
 }
-nav a{
+nav p{
 padding: 4px;
   height: 100%;
   font-size: 15px;
@@ -35,43 +35,43 @@ nav .animation{
   transition: all .5s ease 0s;
   border-radius: 8px;
 }
-a:nth-child(1){
+p:nth-child(1){
   width: 100px;
   left: 0px;
   
 }
-a:nth-child(2){
+p:nth-child(2){
   width:110px ;
   top: 0px;
 } 
-a:nth-child(3){
+p:nth-child(3){
 width: 100px;
 } 
-a:nth-child(4){
+p:nth-child(4){
   width: 160px;
 }  
-nav .start-home, a:nth-child(1):hover~.animation{
+nav .start-home, p:nth-child(1):hover~.animation{
   width: 10px;
   height: 10px;
   top: 4.8px;
   left: 0;
   background-color: #551096;
 }
-nav .start-home, a:nth-child(2):hover~.animation{
+nav .start-home, p:nth-child(2):hover~.animation{
   width: 10px;
   height: 10px;
   left: 100;
   background-color: #953ce9;
 }
 
-nav .start-home, a:nth-child(3):hover~.animation{
+nav .start-home, p:nth-child(3):hover~.animation{
   width: 10px;
   height: 10px;
   left: 210;
   background-color: #b967f3;
 } 
 
-nav .start-home, a:nth-child(4):hover~.animation{
+nav .start-home, p:nth-child(4):hover~.animation{
   width: 10px;
   height: 10px;
   left: 310;

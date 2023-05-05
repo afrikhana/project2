@@ -31,12 +31,12 @@ function Home() {
                 <p>For the love of you, be truthful and 
                 loving to the quality</p> 
                </h1>
-               <div className="img1"><img src="https://sdbooth2-production.s3.amazonaws.com/q1w9auu3n30q9othywmjyhomqduf"></img></div>
+               <div className="img1"><img src="https://sdbooth2-production.s3.amazonaws.com/q1w9auu3n30q9othywmjyhomqduf" alt="pp"></img></div>
         </div>
 
         {/* content 2 */}
         <div className="content2">
-        <img src="https://sdbooth2-production.s3.amazonaws.com/90ixul15hbmbhih3gol4b044lfi7"></img>
+        <img src="https://sdbooth2-production.s3.amazonaws.com/90ixul15hbmbhih3gol4b044lfi7" alt="pretty"></img>
          <h1>It's All about the Details<span></span>
          <p>come on now...join us on this journey</p></h1>
          <NavLink to="/Cart"><button className="cta">
