@@ -14,7 +14,7 @@ function FetchData(){
 // const [searchTerm,setSearchTerm]=useState('')
   
   useEffect(()=>{
-   fetch('http://localhost:3000/Photos')
+   fetch('https://jitumebana.onrender.com/Photos')
    .then(res=>res.json())
    .then(data=>
     setDisplay(data))

@@ -15,7 +15,7 @@ function DeleteButton() {
     const id = prompt("Enter the ID of the photo to delete:");
     if (!id) return;
 
-    fetch(`http://localhost:3000/Photos/${id}`, { method: "DELETE" })
+    fetch(`https://jitumebana.onrender.com/Photos/${id}`, { method: "DELETE" })
       .then((response) => {
         if (response.ok) {
           setPhotos((prevPhotos) =>

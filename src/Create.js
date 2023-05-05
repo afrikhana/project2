@@ -21,7 +21,7 @@ function Cart() {
  
   function handleClick(e){
     e.preventDefault();
-    fetch(`http://localhost:3000/Photos`,{
+    fetch(`https://jitumebana.onrender.com/Photos`,{
         method:'POST', headers:{'Content-Type':'application/json',},
         body:JSON.stringify(createData),
     })
