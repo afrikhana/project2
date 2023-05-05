@@ -77,6 +77,20 @@ function FetchData(){
 
 
 //return for App
+return (
+  <div className="App" class="display">
+    
+   
+ 
+ 
+
+{/* intro qip */}
+
+   
+   <FetchData />
+  
+  </div>
+);
 
 }
 
