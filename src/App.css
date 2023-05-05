@@ -35,14 +35,15 @@ nav .animation{
   transition: all .5s ease 0s;
   border-radius: 8px;
 }
+
 a:nth-child(1){
   width: 100px;
-  left: 0px;
+  left: 2px;
   
 }
 a:nth-child(2){
   width:110px ;
-  top: 0px;
+  top: 0;
 } 
 a:nth-child(3){
 width: 100px;
@@ -50,32 +51,39 @@ width: 100px;
 a:nth-child(4){
   width: 160px;
 }  
+
 nav .start-home, a:nth-child(1):hover~.animation{
-  width: 10px;
+  width: 15%;
   height: 10px;
-  top: 4.8px;
+  top: 13.8px;
   left: 0;
   background-color: #551096;
 }
 nav .start-home, a:nth-child(2):hover~.animation{
-  width: 10px;
+  width: 35%;
   height: 10px;
   left: 100;
   background-color: #953ce9;
 }
 
 nav .start-home, a:nth-child(3):hover~.animation{
-  width: 10px;
+  width: 53%;
   height: 10px;
   left: 210;
   background-color: #b967f3;
 } 
 
 nav .start-home, a:nth-child(4):hover~.animation{
-  width: 10px;
+  width: 75%;
   height: 10px;
   left: 310;
   background-color: #e2a2ff;
+}  
+nav .start-home, a:nth-child(5):hover~.animation{
+  width: 10px;
+  height: 10px;
+  left: 310;
+  background-color: #a2ffc1;
 }  
 
 /* end of nav bar */

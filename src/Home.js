@@ -39,7 +39,7 @@ function Home() {
         <img src="https://sdbooth2-production.s3.amazonaws.com/90ixul15hbmbhih3gol4b044lfi7" alt="pretty"></img>
          <h1>It's All about the Details<span></span>
          <p>come on now...join us on this journey</p></h1>
-         <NavLink to="/Cart"><button className="cta">
+         <NavLink to="/Gallery"><button className="cta">
          <span>lets goooooo</span>
             <svg viewBox="0 0 13 10" height="10px" width="15px">
             <path d="M1,5 L11,5"></path>
