@@ -77,24 +77,6 @@ function FetchData(){
 
 
 //return for App
-return (
-  <div className="App" class="display">
-    
-   
- 
- 
-
-{/* intro qip */}
-<div class="vibes">
-  <h1>Vibes</h1>
-  <p>Its all about the vibes broski, dont take it eezy take it hard papi <br></br>
-      Se trata de las vibraciones broski, no lo tomes eezy tómalo duro papi</p>
- </div>
-   
-   <FetchData />
-  
-  </div>
-);
 
 }
 
